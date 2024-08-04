@@ -27,9 +27,15 @@
               }
             ],
             "styles": [
+              "@angular/material/prebuilt-themes/azure-blue.css",
+              "node_modules/monaco-editor/min/vs/editor/editor.main.css",
               "src/styles.css"
             ],
-            "scripts": [],
+            "scripts": [
+              "node_modules/monaco-editor/min/vs/loader.js",
+              "node_modules/monaco-editor/min/vs/editor/editor.main.nls.js",
+              "node_modules/monaco-editor/min/vs/editor/editor.main.js"
+            ],
             "server": "src/main.server.ts",
             "prerender": true,
             "ssr": {
@@ -90,12 +96,21 @@
               }
             ],
             "styles": [
+              "@angular/material/prebuilt-themes/azure-blue.css",
+              "node_modules/monaco-editor/min/vs/editor/editor.main.css",
               "src/styles.css"
             ],
-            "scripts": []
+           "scripts": [
+            "node_modules/monaco-editor/min/vs/loader.js",
+            "node_modules/monaco-editor/min/vs/editor/editor.main.nls.js",
+            "node_modules/monaco-editor/min/vs/editor/editor.main.js"
+          ]
           }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "f2c69ad0-1014-466f-b1f1-c82184ba5538"
   }
 }
